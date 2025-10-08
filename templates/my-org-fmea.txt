@@ -1,0 +1,35 @@
+* FMEA %^{Item}			:high:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %^{Program}
+:Owner: %^{Owner}
+:Created: %U
+:Severity: %^{Severity|Low|Medium|High}
+:Occurrence: %^{Occurrence}
+:Detection: %^{Detection}
+:Impact: %^{Impact}
+:RPN: %^{RPN}
+:Status: TODO
+:Category: FMEA
+:END:
+
+** Function
+%^{Function}
+
+** Failure Mode
+%^{Failure Mode}
+
+** Effects
+%^{Effects}
+
+** Causes
+%^{Causes}
+
+** Controls
+%^{Controls}
+
+** Recommended Actions
+%^{Recommended Actions}
+
+** Verification
+%^{Verification}

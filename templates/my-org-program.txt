@@ -1,0 +1,59 @@
+* PROG %^{Program Name}
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %\1
+:Owner: Unassigned
+:Start: %U
+:Phase: Concept
+:Status: TODO
+:Category: PROG
+:END:
+
+** Overview
+- Purpose: TBD
+- Scope: TBD
+- Success Criteria (reliability): TBD
+- Interfaces/Dependencies: TBD
+
+** Mission Profile (drives margins & tests)
+- Use profile (duty cycle, load, on-time): TBD
+- Environment (temp/humidity/chemicals/altitude/shock/vibe/EMC): TBD
+- Assumptions & unknowns: TBD
+
+** Targets & Allocation
+- System targets (AFR/MTBF, warranty returns, env. margin): TBD
+- Allocation approach (system → subsystems → parts): TBD
+- Evidence links (models/data): TBD
+
+** Derating & Design Margins (policy link)
+- Derating standard / exceptions path: TBD
+- Critical limits (thermal, electrical, mechanical): TBD
+
+** DVP&R (qualification backbone)
+- Strategy: TBD
+- Requirements source(s): TBD
+- Entry/Exit criteria per phase (EVT/DVT/PVT): TBD
+
+** FMEA (master link & action tracking)
+- Master FMEA doc/link: TBD
+- Coverage plan (system + key subsystems): TBD
+
+** FRACAS / Bug Intake (learning loop)
+- Intake path (tool/board): TBD
+- Triage SLA & ownership: TBD
+
+** KPIs & Cadence
+- DVPR completion %, FMEA action on-time, FRACAS 90p aging, field AFR: TBD
+- Reporting cadence & owner: TBD
+
+** Decisions Log (traceability)
+- Where decisions live (DECISION captures), and how you ratify: TBD
+
+** Links
+- Requirements: TBD
+- Architecture: TBD
+- Derating standard: TBD
+- DVPR master: TBD
+- FMEA master: TBD
+- FRACAS board: TBD
+- Repos / Wiki: TBD

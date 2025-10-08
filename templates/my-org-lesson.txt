@@ -1,0 +1,24 @@
+* LESSON %^{Title}
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %^{Program}
+:Owner: %^{Owner}
+:Date: %U
+:Status: DONE
+:Category: LESSON
+:END:
+
+** Issue
+%^{Issue}
+
+** Root Cause
+%^{Root Cause}
+
+** Mitigation
+%^{Mitigation}
+
+** Lesson
+%^{Lesson}
+
+** Recommendation for Future Programs
+%^{Recommendation}

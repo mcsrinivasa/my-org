@@ -1,0 +1,34 @@
+* BUG %^{Title}				:high:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %^{Program}
+:Owner: %^{Owner}
+:Reported: %U
+:Severity: %^{Severity|Low|Medium|High}
+:Status: TODO
+:Category: BUG
+:END:
+
+** Description
+%^{Description}
+
+** Steps to Reproduce
+%^{Steps}
+
+** Expected Result
+%^{Expected}
+
+** Actual Result
+%^{Actual}
+
+** Root Cause
+%^{Root Cause}
+
+** Checkpoint
+%^{Checkpoint}
+
+** Mitigation
+%^{Mitigation}
+
+** Resolution
+%^{Resolution}

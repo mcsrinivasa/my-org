@@ -1,0 +1,14 @@
+* Meeting: %^{Subject}
+:PROPERTIES:
+:Date: %U
+:Attendees: %^{Attendees}
+:END:
+
+** Agenda
+%^{Agenda}
+
+** Notes
+%^{Notes}
+
+** Action Items
+%^{Action Items}

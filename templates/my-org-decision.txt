@@ -1,0 +1,24 @@
+* DECISION %^{Title}
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %^{Program}
+:Owner: %^{Owner}
+:Date: %U
+:Status: DONE
+:Category: DECISION
+:END:
+
+** Context
+%^{Context}
+
+** Options Considered
+%^{Options}
+
+** Final Choice
+%^{Final Choice}
+
+** Rationale
+%^{Rationale}
+
+** Impact
+%^{Impact}

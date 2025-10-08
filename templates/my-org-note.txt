@@ -1,0 +1,6 @@
+* %^{Note Title}
+:PROPERTIES:
+:Created: %U
+:Context: %a
+:END:
+%^{Details}
