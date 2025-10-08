@@ -1,0 +1,14 @@
+# Ignore everything by default
+/*
+
+# But keep these
+!/lisp/
+!/templates/
+!/init.el
+!.gitignore
+
+# If you want to ignore any temp files inside lisp or templates, you can add rules:
+# For example:
+lisp/*~
+templates/*~
+/*~
