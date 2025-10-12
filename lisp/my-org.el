@@ -74,9 +74,13 @@
          (file ,(concat config-directory "/templates/my-org-todo.txt")))
 
         ("p" "Project" entry
-         (file+headline ,(concat org-directory "/inbox.org") "Projects")
-         (file ,(concat config-directory "/templates/my-org-project.txt")))
+         (file+headline ,(concat org-directory "/inbox.org") "Programs")
+         (file ,(concat config-directory "/templates/my-org-program.txt")))
 
+        ("s" "Status Update" entry
+         (file+headline "~/org/inbox.org" "Status Updates")
+         (file "~/.emacs.d/templates/my-org-status.txt"))
+        
         ("n" "Note" entry
          (file+headline ,(concat org-directory "/inbox.org") "Notes")
          (file ,(concat config-directory "/templates/my-org-note.txt")))

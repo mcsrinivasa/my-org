@@ -3,9 +3,8 @@
 :ID: %(org-id-new)
 :Program: %^{Program}
 :Owner: %^{Owner}
-:Date: %U
-:Status: DONE
-:Category: LESSON
+:DATE: %U
+:CATEGORY: LESSON
 :END:
 
 ** Issue
@@ -20,5 +19,5 @@
 ** Lesson
 %^{Lesson}
 
-** Recommendation for Future Programs
+** Recommendation
 %^{Recommendation}

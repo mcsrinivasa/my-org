@@ -1,19 +1,19 @@
-* FMEA %^{Item}			:high:
+* FMEA %^{Item / Function}
 :PROPERTIES:
 :ID: %(org-id-new)
 :Program: %^{Program}
 :Owner: %^{Owner}
-:Created: %U
-:Severity: %^{Severity|Low|Medium|High}
-:Occurrence: %^{Occurrence}
-:Detection: %^{Detection}
-:Impact: %^{Impact}
-:RPN: %^{RPN}
-:Status: TODO
-:Category: FMEA
+:Severity: %^{S|10|9|8|7|6|5|4|3|2|1}
+:Occurrence: %^{O|10|9|8|7|6|5|4|3|2|1}
+:Detection: %^{D|10|9|8|7|6|5|4|3|2|1}
+:RPN: %(number-to-string (* (string-to-number (or (org-entry-get (point) "Severity") "0"))
+                           (string-to-number (or (org-entry-get (point) "Occurrence") "0"))
+                           (string-to-number (or (org-entry-get (point) "Detection") "0"))))
+:CATEGORY: FMEA
+:STATUS: %^{STATUS|OPEN|IN-PROGRESS|MITIGATED|VERIFIED|CLOSED}
 :END:
 
-** Function
+** Function / Requirement
 %^{Function}
 
 ** Failure Mode
@@ -25,11 +25,11 @@
 ** Causes
 %^{Causes}
 
-** Controls
+** Current Controls
 %^{Controls}
 
 ** Recommended Actions
-%^{Recommended Actions}
+%^{Actions}
 
 ** Verification
 %^{Verification}

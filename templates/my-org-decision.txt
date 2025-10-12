@@ -3,9 +3,9 @@
 :ID: %(org-id-new)
 :Program: %^{Program}
 :Owner: %^{Owner}
-:Date: %U
-:Status: DONE
-:Category: DECISION
+:DATE: %U
+:CATEGORY: DECISION
+:STATUS: %^{STATUS|DRAFT|IN-REVIEW|APPROVED|REJECTED}
 :END:
 
 ** Context
@@ -20,5 +20,9 @@
 ** Rationale
 %^{Rationale}
 
-** Impact
+** Impact / Risks
 %^{Impact}
+
+** Follow-ups
+- [ ] %^{Follow-up 1}
+- [ ] %^{Follow-up 2}

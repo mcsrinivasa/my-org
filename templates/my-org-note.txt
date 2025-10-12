@@ -1,6 +1,9 @@
-* %^{Note Title}
+* NOTE %^{Title}
 :PROPERTIES:
-:Created: %U
+:ID: %(org-id-new)
+:DATE: %U
+:CATEGORY: NOTE
 :Context: %a
 :END:
-%^{Details}
+
+%^{Body}

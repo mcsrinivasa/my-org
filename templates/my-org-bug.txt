@@ -1,34 +1,33 @@
-* BUG %^{Title}				:high:
+* BUG %^{Title}
 :PROPERTIES:
 :ID: %(org-id-new)
 :Program: %^{Program}
 :Owner: %^{Owner}
-:Reported: %U
-:Severity: %^{Severity|Low|Medium|High}
-:Status: TODO
-:Category: BUG
+:Severity: %^{Severity|Blocker|Critical|Major|Minor|Trivial}
+:Priority: %^{Priority|P0|P1|P2|P3}
+:Found In: %^{Phase|EVT|DVT|PVT|MP|Field}
+:CATEGORY: BUG
+:STATUS: %^{STATUS|OPEN|Triage|In-Progress|Fix-Ready|Verify|Closed|Defer}
+:DATE: %U
 :END:
 
 ** Description
 %^{Description}
 
-** Steps to Reproduce
-%^{Steps}
+** Repro Steps
+1. %^{Step 1}
+2. %^{Step 2}
+3. %^{Step 3}
 
-** Expected Result
-%^{Expected}
-
-** Actual Result
-%^{Actual}
+** Expected vs Actual
+- Expected: %^{Expected}
+- Actual: %^{Actual}
 
 ** Root Cause
 %^{Root Cause}
 
-** Checkpoint
-%^{Checkpoint}
+** Mitigation / Fix
+%^{Fix}
 
-** Mitigation
-%^{Mitigation}
-
-** Resolution
-%^{Resolution}
+** Verification / Evidence
+%^{Verification}

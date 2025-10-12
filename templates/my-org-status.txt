@@ -1,0 +1,31 @@
+* STATUS UPDATE %^{Status entry (e.g., GREEN – … / YELLOW – … / RED – …)}%U
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %^{Program}
+:Owner: %^{Owner}
+:Week: %^{Week (e.g. 2025-W42)}
+:DATE: %U
+:CATEGORY: STATUS
+:STATUS: %^{STATUS|ON-TRACK|AT-RISK|BLOCKED|COMPLETE}
+:END:
+
+** Summary
+%^{High-level summary of progress and highlights}
+
+** Key Achievements
+- %^{Achievement 1}
+- %^{Achievement 2}
+- %^{Achievement 3}
+
+** Upcoming
+- %^{Planned 1}
+- %^{Planned 2}
+- %^{Planned 3}
+
+** Risks / Blockers
+- %^{Risk or Blocker 1}
+- %^{Risk or Blocker 2}
+
+** Dependencies / Decisions
+- %^{Dependency 1}
+- %^{Decision 1}

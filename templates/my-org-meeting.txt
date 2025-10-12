@@ -1,7 +1,11 @@
-* Meeting: %^{Subject}
+* MEETING %^{Title}
 :PROPERTIES:
-:Date: %U
+:ID: %(org-id-new)
+:DATE: %U
+:Host: %^{Host}
 :Attendees: %^{Attendees}
+:CATEGORY: MEETING
+:Program: %^{Program}
 :END:
 
 ** Agenda
@@ -11,4 +15,6 @@
 %^{Notes}
 
 ** Action Items
-%^{Action Items}
+- [ ] %^{Action 1}
+- [ ] %^{Action 2}
+- [ ] %^{Action 3}

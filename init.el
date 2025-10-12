@@ -27,17 +27,21 @@
 ;; ------------------------------------------------------------
 (load "my-emacs")   ;; general editor settings
 (load "my-org")     ;; org-mode cockpit configuration
+;;(load "my-mail")    ;; << NEW: email module we will create next!
 
 ;; ------------------------------------------------------------
 ;; Custom packages (installed via M-x package-install)
 ;; ------------------------------------------------------------
 (custom-set-variables
  '(package-selected-packages
-   '(org-modern        ;; modernized Org faces/styling
-     org-tree-slide    ;; simple org presentation mode
-     pdf-tools)))      ;; better PDF viewing inside Emacs
+   '(org-modern
+     org-tree-slide
+     pdf-tools
+     ;; mu4e                 ;; << Add mu4e for Gmail email
+     async                ;; to support mbsync/mail sync
+     )))
 
-(custom-set-faces) ;; leave empty unless customizing faces
+(custom-set-faces)
 
 ;; ------------------------------------------------------------
 ;; Startup behavior
