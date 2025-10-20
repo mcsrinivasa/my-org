@@ -69,6 +69,7 @@ to the kill ring. Works only in `org-mode` buffers."
 (global-set-key (kbd "C-c W") (lambda () (interactive) (my/org-open "dailyplan-work.org")))
 (global-set-key (kbd "C-c P") (lambda () (interactive) (my/org-open "dailyplan-private.org")))
 (global-set-key (kbd "C-c j") (lambda () (interactive) (my/org-open "journal.org")))
+(global-set-key (kbd "C-c J") (lambda () (interactive) (my/org-open "journal_private.org")))
 (global-set-key (kbd "C-c l") (lambda () (interactive) (my/org-open "log.org")))
 (global-set-key (kbd "<f5>") 'my/copy-id-to-clipboard)
 
