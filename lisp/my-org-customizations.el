@@ -359,11 +359,11 @@ to the kill ring. Works only in `org-mode` buffers."
          :empty-lines 1)
 	 ("P" "Daily Plan")
 	 ("Pp" "Private" plain
-	  (file+olp+datetree "~/org/private_plan.org")
+	  (file+olp+datetree "~/org/dailyplan_private.org")
 	  (file "~/.emacs.d/templates/dailyplan.txt")
 	  :empty-lines 1)
 	 ("Pw" "Work" plain
-	  (file+olp+datetree "~/org/work_plan.org")
+	  (file+olp+datetree "~/org/dailyplan_work.org")
 	  (file "~/.emacs.d/templates/dailyplan.txt")
 	  :empty-lines 1)
 	 ("J" "Journal")
