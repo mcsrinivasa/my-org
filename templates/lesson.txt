@@ -1,10 +1,10 @@
 * DONE %^{Title}	:NEW:LESSON:
-  :PROPERTIES:
-  :ID: %(org-id-new)
-  :Owner: %^{Owner}
-  :Category: LESSON
-  :Created: %U
-  :END:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Owner: %^{Owner}
+:Category: LESSON
+:Created: %U
+:END:
 
 ** Issue
 %^{Issue}

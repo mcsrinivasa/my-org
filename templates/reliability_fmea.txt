@@ -1,19 +1,19 @@
 * FMEA [#A] %^{Title}	:NEW:FMEA:REL:SELF:
-  :PROPERTIES:
-  :ID: %(org-id-new)
-  :Program: %^{Program}
-  :Phase: %^{Phase|INIT|EVT|DVT|MP}
-  :Owner: %^{Owner}
-  :Subsystem: %^{Subsystem}
-  :Component: %^{Component}
-  :Occurrence: %^{Occurrence|1|2|3|4|5}
-  :Detectability: %^{Detectability|1|2|3|4|5}
-  :Impact: %^{Impact|1|2|3|4|5}
-  :RPN: %^{RPN}
-  :Category: FMEA
-  :Resolution: WIP
-  :Created: %U
-  :END:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %^{Program}
+:Phase: %^{Phase|INIT|EVT|DVT|MP}
+:Owner: %^{Owner}
+:Subsystem: %^{Subsystem}
+:Component: %^{Component}
+:Occurrence: %^{Occurrence|1|2|3|4|5}
+:Detectability: %^{Detectability|1|2|3|4|5}
+:Impact: %^{Impact|1|2|3|4|5}
+:RPN: %^{RPN}
+:Category: FMEA
+:Resolution: WIP
+:Created: %U
+:END:
 
 ** Function / Intent
 

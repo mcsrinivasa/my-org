@@ -1,13 +1,13 @@
 * PROJ %^{Name} - %^{Description}	:NEW:	
-  :PROPERTIES:
-  :ID: %(org-id-new)
-  :Program: %\1
-  :Phase: %^{Phase|INIT|EVT|DVT|MP}
-  :Description: %\2
-  :TPM: %^{Technical Program Manager}
-  :Created: %U
-  :Category: PROJ
-  :END:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Program: %\1
+:Phase: %^{Phase|INIT|EVT|DVT|MP}
+:Description: %\2
+:TPM: %^{Technical Program Manager}
+:Created: %U
+:Category: PROJ
+:END:
 
 ** Status
 *** Summary
@@ -58,54 +58,54 @@
 ** Tasks [/]
 
 *** TODO Define reliability requirements for %\1	:NEW:
-    Desired outcome: Agreed target metrics (AFR, warranty period, MTBF)
-    :LOGBOOK:
-    - Added: %U
-    :END:
+Desired outcome: Agreed target metrics (AFR, warranty period, MTBF)
+:LOGBOOK:
+- Added: %U
+:END:
 
 *** TODO Create FMEA for %\1	:NEW:
-    Desired outcome: Baseline DFMEA created and actions assigned
-    :LOGBOOK:
-    - Added: %U
-    :END:
+Desired outcome: Baseline DFMEA created and actions assigned
+:LOGBOOK:
+- Added: %U
+:END:
 
 *** TODO Build reliability test plan for %\1	:NEW:
-    Desired outcome: Draft validation plan aligned to program phases (EVT/DVT/PVT)
-    :LOGBOOK:
-    - Added: %U
-    :END:
+Desired outcome: Draft validation plan aligned to program phases (EVT/DVT/PVT)
+:LOGBOOK:
+- Added: %U
+:END:
 
 *** TODO Establish metrics dashboard for %\1	:NEW:
-    Desired outcome: Track KPIs and risk trends (DVPR, FRACAS, FMEA closure)
-    :LOGBOOK:
-    - Added: %U
-    :END:
+Desired outcome: Track KPIs and risk trends (DVPR, FRACAS, FMEA closure)
+:LOGBOOK:
+- Added: %U
+:END:
 
 *** TODO Conduct weekly reliability review cadence	:NEW:
-    Desired outcome: Standing forum for FMEA/FRACAS/status tracking
-    :LOGBOOK:
-    - Added: %U
-    :END:
-    - [ ] Add a schedule
-    - [ ] Make it repeating
+Desired outcome: Standing forum for FMEA/FRACAS/status tracking
+:LOGBOOK:
+- Added: %U
+:END:
+- [ ] Add a schedule
+- [ ] Make it repeating
 
 *** TODO Close out design actions before DVT exit	:NEW:
-    Desired outcome: No open high-risk FMEA actions at phase gate
-    :LOGBOOK:
-    - Added: %U
-    :END:
+Desired outcome: No open high-risk FMEA actions at phase gate
+:LOGBOOK:
+- Added: %U
+:END:
 
 *** TODO Publish DVT/PVT reliability summary report	:NEW:
-    Desired outcome: Documented validation evidence for PIR gate
-    :LOGBOOK:
-    - Added: %U
-    :END:
+Desired outcome: Documented validation evidence for PIR gate
+:LOGBOOK:
+- Added: %U
+:END:
 
 *** TODO Transition to sustain phase tracking for %\1	:NEW:
-    Desired outcome: Field KPI ownership and lessons learned captured
-    :LOGBOOK:
-    - Added: %U
-    :END:
+Desired outcome: Field KPI ownership and lessons learned captured
+:LOGBOOK:
+- Added: %U
+:END:
 
 ** FMEA [/]
 

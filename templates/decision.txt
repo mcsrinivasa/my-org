@@ -1,10 +1,10 @@
 * DONE %^{Title}	:NEW:DECISION:
-  :PROPERTIES:
-  :ID: %(org-id-new)
-  :Owner: %^{Owner}
-  :Category: DECISION
-  :Created: %U
-  :END:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Owner: %^{Owner}
+:Category: DECISION
+:Created: %U
+:END:
 
 ** Context
 %^{Context}

@@ -1,9 +1,10 @@
 * TODO %^{Title}	:NEW:
-  Desired outcome: %?
-  :PROPERTIES:  
-  :ID: %(org-id-new)
-  :STYLE: %^{Is this a habit?||habit}
-  :END:
-  :LOGBOOK:
-  - Added: %U
-  :END:
+:PROPERTIES:  
+:ID: %(org-id-new)
+:STYLE: %^{Is this a habit?||habit}
+:RESET_CHECK_BOXES: f
+:END:
+:CLOCKING:
+- Added: %U
+:END:
+Desired outcome: %?

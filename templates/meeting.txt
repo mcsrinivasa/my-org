@@ -1,11 +1,11 @@
 * TODO %^{Subject}	:NEW:CALL:
-  :PROPERTIES:
-  :ID: %(org-id-new)
-  :Date: %U
-  :Attendees: %^{Attendees}
-  :Category: CALL
-  :Created: %U
-  :END:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Date: %U
+:Attendees: %^{Attendees}
+:Category: CALL
+:Created: %U
+:END:
 
 ** Agenda
 - [ ] %^{Agenda Item 1}
