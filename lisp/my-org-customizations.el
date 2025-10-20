@@ -34,28 +34,13 @@ to the kill ring. Works only in `org-mode` buffers."
     (kill-new link)
     (message "Copied link to kill ring: %s" link)))
 
-;; Find Active Tasks that are overdue
-(defun my/org-project-not-stuck-p ()
-  "Return t if the current project has any active or timely tasks."
-  (let ((found nil)
-        (now (current-time)))
-    (org-map-entries
-     (lambda ()
-       (let* ((state (org-get-todo-state))
-              (sched (org-get-scheduled-time (point)))
-              (deadl (org-get-deadline-time (point))))
-         (when (and state
-                    (not (member state '("DONE" "CANCELLED"
-                                         "WAITING" "DELEGATED" "SOMEDAY")))
-                    ;; TODO/NEXT valid only if not overdue
-                    (or (not (member state '("TODO" "NEXT")))
-                        (and (or (not sched)
-                                 (time-less-p now sched))
-                             (or (not deadl)
-                                 (time-less-p now deadl)))))
-           (setq found t))))
-     "+TODO<>\"\"" 'tree)
-    found))
+;; Reset checkboxes
+(defun org-reset-checkbox-state-maybe ()
+ "Reset all checkboxes in an entry
+ if the `RESET_CHECK_BOXES' property is set"
+ (interactive "∗")
+ (if (org-entry-get (point) "RESET_CHECK_BOXES")
+ (org-reset-checkbox-state-subtree)))
 
 ;; -----------
 ;; Keybindings
