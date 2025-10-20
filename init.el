@@ -3,7 +3,6 @@
 ;; Package system initialize
 (package-initialize)
 
-
 ;; Default directory
 (setq default-directory (expand-file-name "~/org/"))
 
@@ -14,8 +13,8 @@
 (load "my-emacs-customizations")
 (load "my-org-customizations")
 
-;; Open inbox.org on startup
-(setq initial-buffer-choice (expand-file-name "~/org/inbox.org"))
+;; Open capture.org on startup
+(setq initial-buffer-choice (expand-file-name "~/org/capture.org"))
 
-(provie 'init)
+(provide 'init)
 ;; init.el ends here
