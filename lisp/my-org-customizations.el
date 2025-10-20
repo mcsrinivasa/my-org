@@ -333,16 +333,13 @@ to the kill ring. Works only in `org-mode` buffers."
          (file+headline "~/org/capture.org" "Goals")
          (file "~/.emacs.d/templates/goal.txt")
          :empty-lines 1)
-	 ("j" "Journal" entry
-	  (file+olp+datetree "~/org/journal.org")
-	  "* %U - %^{Activity}")
 	 ("L" "Lesson" entry
          (file+headline "~/org/capture.org" "Lessons")
          (file "~/.emacs.d/templates/lesson.txt")
          :empty-lines 1)
 	 ("l" "Log" entry
 	  (file+olp+datetree "~/org/log.org")
-	  "* %U - %^{Log}")
+	  "* %U - %^{Log}\n%?")
 	 ("m" "Meeting" entry
          (file+headline "~/org/capture.org" "Meetings")
          (file "~/.emacs.d/templates/meeting.txt")
@@ -368,6 +365,13 @@ to the kill ring. Works only in `org-mode` buffers."
 	  (file+olp+datetree "~/org/work_plan.org")
 	  (file "~/.emacs.d/templates/dailyplan.txt")
 	  :empty-lines 1)
+	 ("J" "Journal")
+	 ("Jp" "Private Journal" entry
+	  (file+olp+datetree "~/org/journal_private.org")
+	  "* %U - %^{Activity}\n%?")
+	 ("Jw" "Work Journal" entry
+	  (file+olp+datetree "~/org/journal.org")
+	  "* %U - %^{Activity}\n%?")
 	 ("R" "Reliability Items")
 	 ("Rp" "New Program" entry
          (file+headline "~/org/capture.org" "Programs")
