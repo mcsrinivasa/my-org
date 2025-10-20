@@ -1,0 +1,12 @@
+The 3 most important tasks:
+- [ ]
+- [ ]
+- [ ]
+Other tasks managed in the system:
+- [ ]
+- [ ]
+- [ ]
+ToDos not tracked in the system:
+- [ ]
+- [ ]
+- [ ]

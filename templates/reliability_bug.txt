@@ -1,0 +1,30 @@
+* BUG [#A] %^{Title}	:NEW:BUG:REL:SELF:
+  :PROPERTIES:
+  :ID: %(org-id-new)
+  :Program: %^{Program}
+  :Phase: %^{Phase|INIT|EVT|DVT|MP}
+  :Owner: %^{Owner}
+  :Occurrence: %^{Occurrence|1|2|3|4|5}
+  :Detectability: %^{Detectability|1|2|3|4|5}
+  :Impact: %^{Impact|1|2|3|4|5}
+  :RPN: %^{RPN}
+  :Frequency: %^{Frequency}
+  :Scenario: %^{Scenario}
+  :Impact: %^{Impact}
+  :Resolution: WIP
+  :Category: BUG
+  :Created: %U
+  :END:
+
+** Reproduction Steps
+
+** Investigation Status
+*** Symptoms
+
+*** Root Cause Analysis
+
+*** Corrective Action
+
+** Verification
+
+** Status Notes

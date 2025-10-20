@@ -1,0 +1,129 @@
+* PROJ %^{Name} - %^{Description}	:NEW:	
+  :PROPERTIES:
+  :ID: %(org-id-new)
+  :Program: %\1
+  :Phase: %^{Phase|INIT|EVT|DVT|MP}
+  :Description: %\2
+  :TPM: %^{Technical Program Manager}
+  :Created: %U
+  :Category: PROJ
+  :END:
+
+** Status
+*** Summary
+- 
+| Area        | Status   | Comments  |
+|-------------+----------+-----------|
+|             |          |           |
+|             |          |           |
+|             |          |           |
+
+*** Current Phase
+-
+
+*** Health
+-
+
+*** Upcoming Milestones
+-
+
+*** Blockers / Risks
+-
+
+*** KPIs
+| KPI                     | Target        | Current | Notes |
+|------------------------|---------------|---------|--------|
+|                        |               |         |        |
+|                        |               |         |        |
+|                        |               |         |        |
+|                        |               |         |        |
+
+** Program Core Team
+| Role | Owner | Notes  |
+|------+-------+--------|
+|      |       |        |
+|      |       |        |
+|      |       |        |
+
+** Schedule
+| Phase | Start Date | End Date | Comment |
+|-------+------------+----------+---------|
+|       |            |          |         |
+|       |            |          |         |
+|       |            |          |         |
+
+** Meetings
+
+
+** Tasks [/]
+
+*** TODO Define reliability requirements for %\1	:NEW:
+    Desired outcome: Agreed target metrics (AFR, warranty period, MTBF)
+    :LOGBOOK:
+    - Added: %U
+    :END:
+
+*** TODO Create FMEA for %\1	:NEW:
+    Desired outcome: Baseline DFMEA created and actions assigned
+    :LOGBOOK:
+    - Added: %U
+    :END:
+
+*** TODO Build reliability test plan for %\1	:NEW:
+    Desired outcome: Draft validation plan aligned to program phases (EVT/DVT/PVT)
+    :LOGBOOK:
+    - Added: %U
+    :END:
+
+*** TODO Establish metrics dashboard for %\1	:NEW:
+    Desired outcome: Track KPIs and risk trends (DVPR, FRACAS, FMEA closure)
+    :LOGBOOK:
+    - Added: %U
+    :END:
+
+*** TODO Conduct weekly reliability review cadence	:NEW:
+    Desired outcome: Standing forum for FMEA/FRACAS/status tracking
+    :LOGBOOK:
+    - Added: %U
+    :END:
+    - [ ] Add a schedule
+    - [ ] Make it repeating
+
+*** TODO Close out design actions before DVT exit	:NEW:
+    Desired outcome: No open high-risk FMEA actions at phase gate
+    :LOGBOOK:
+    - Added: %U
+    :END:
+
+*** TODO Publish DVT/PVT reliability summary report	:NEW:
+    Desired outcome: Documented validation evidence for PIR gate
+    :LOGBOOK:
+    - Added: %U
+    :END:
+
+*** TODO Transition to sustain phase tracking for %\1	:NEW:
+    Desired outcome: Field KPI ownership and lessons learned captured
+    :LOGBOOK:
+    - Added: %U
+    :END:
+
+** FMEA [/]
+
+** Bugs [/]
+
+** Links
+- Reliability Requirements: TBD
+- Test Plan: TBD
+- CAD/Drawings: TBD
+
+** Initialization Checklist
+- [ ] Capture Roles and Responsibilities
+- [ ] Capture Project Schedule
+- [ ] Set Program Phase (Concept / EVT / DVT / PVT / MP)
+- [ ] Add links to key documents (DVPR, FMEA, FRACAS, Lessons)
+- [ ] Add TPM and Reliability Lead names in properties
+- [ ] Insert KPI table shell
+- [ ] Insert Status and Health section placeholders
+- [ ] Create related capture links (FMEA, Bugs, Decisions, Lessons)
+- [ ] Verify program tag and properties for agenda filters
+- [ ] Save and commit initial project node to repository

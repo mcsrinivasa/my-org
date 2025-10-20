@@ -1,0 +1,56 @@
+* TODO [#C] Weekly Review 
+SCHEDULED: %(org-read-date nil nil nil "Select start date") ++1w
+:PROPERTIES:
+:ID: %(org-id-new)
+:RESET_CHECK_BOXES: t
+:Effort: 0:45
+:LOGGING: nil
+:END:
+
+** WR BOOTUP
+- [ ] Remove all NEW tags from backlog tasks
+
+** GET CLEAN
+Inbox Zero (create new tasks if needed):
+- [ ] Snail mail
+- [ ] Email
+- [ ] Journal
+- [ ] Voicemail or messages
+- [ ] Meeting notes from last week
+- [ ] Other reference material
+
+Braindump #1:
+- [ ] Set a 5 min timer and write down everything on your mind
+
+** CHECK CURRENT
+Check WAITING actions:
+- [ ] Did something arrive? - mark as NEXT
+- [ ] If still waiting, postpone reminder
+
+Check DELEGATED actions:
+- [ ] Finished? - mark as DONE
+- [ ] Overdue? - schedule supportive action
+
+Projects and tasks:
+- [ ] Review project list - is anything stuck?
+- [ ] Check goal list and associated actions
+- [ ] Browse actions - mark finished or cancelled
+- [ ] Schedule unscheduled tasks
+- [ ] Review next 2 weeks and reschedule if too full
+- [ ] Review performance and energy from last week
+- [ ] Create short journal entry (what went well / not)
+
+** FUTURE ACTIONS
+- [ ] Promote any relevant Someday or Maybe item into active task or project
+- [ ] Cancel items no longer of interest
+
+Braindump #2:
+- [ ] Set 5 min timer and brainstorm new ideas
+- [ ] File results under Actions, Someday, or Maybe
+
+** WR SHUTDOWN AND ARCHIVING
+- [ ] Clean up REPEAT actions (logbook, notes)
+- [ ] Bulk-archive finished tasks in agenda view
+
+** Notes or Observations
+%?

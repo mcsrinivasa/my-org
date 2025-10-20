@@ -1,0 +1,27 @@
+* TODO %^{Subject}	:NEW:CALL:
+  :PROPERTIES:
+  :ID: %(org-id-new)
+  :Date: %U
+  :Attendees: %^{Attendees}
+  :Category: CALL
+  :Created: %U
+  :END:
+
+** Agenda
+- [ ] %^{Agenda Item 1}
+- [ ] %^{Agenda Item 2}
+- [ ] %^{Agenda Item 3}
+
+** Discussion Notes
+- 
+
+** Action Items
+- [ ] 
+- [ ] 
+- [ ] 
+
+** Decisions Made
+- 
+
+** Follow-up
+- 

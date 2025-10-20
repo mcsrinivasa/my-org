@@ -1,0 +1,9 @@
+* TODO %^{Title}	:NEW:
+  Desired outcome: %?
+  :PROPERTIES:  
+  :ID: %(org-id-new)
+  :STYLE: %^{Is this a habit?||habit}
+  :END:
+  :LOGBOOK:
+  - Added: %U
+  :END:

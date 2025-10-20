@@ -1,0 +1,13 @@
+* SOMEDAY %^{Title}  :NEW:SOMEDAY:
+:PROPERTIES:
+:ID: %(org-id-new)
+:Type: %^{Type|Book|Movie|Music|Podcast|Course|Article|Experience}
+:Creator: %^{Author/Artist/Host|}
+:Album/Series: %^{Album/Series|}
+:URL: %^{URL|(current-kill 0)}
+:RecommendedBy: %^{Source|Self|Friend|Reddit|YouTube|Blog|Article}
+:Created: %U
+:END:
+
+** Notes
+%?
